@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 22px;
+    background: #ffefd5;
+    color: rgb(0,0,0);
+}
+
+p{
+    color: #333;
+}
+
+a:hover {
+    color: red;
+}
