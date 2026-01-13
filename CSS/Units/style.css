@@ -1,0 +1,14 @@
+.example{
+    width: 50vw;
+    background-color: lightblue;
+    font-size: 10px;    
+}
+
+
+.example-absolute{
+    font-size: 25px;
+}
+
+.example-relative p{
+    font-size: 2em;
+} 

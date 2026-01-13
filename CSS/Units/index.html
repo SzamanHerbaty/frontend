@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CSS units</h1>
+
+        <h2>Absoulute units</h2>
+        <p>Absolute units are fixed and do not change based on other elements. Common absolute units include:</p>
+        <ul>
+            <li>cm - centimeters</li>
+            <li>mm - millimeters</li>
+            <li>in - inches (1in = 2.54cm)</li>
+            <li>px - pixels (1px = 1/96th of 1in)</li>
+            <li>pt - points (1pt = 1/72nd of 1in)</li>
+            <li>pc - picas (1pc = 12pt)</li>
+        </ul>
+
+        <h2>Relative units</h2>
+        <p>Relative units are based on other elements, such as the size of the parent element or the root element. Common relative units include:</p>
+        <ul>
+            <li>% - percentage (relative to the parent element)</li>
+            <li>em - relative to the font-size of the element (2em means 2 times the size of the current font)</li>
+            <li>rem - relative to the font-size of the root element (html)</li>
+            <li>vw - viewport width (1vw = 1% of the viewport's width)</li>
+            <li>vh - viewport height (1vh = 1% of the viewport's height)</li>
+            <li>vmin - relative to the smaller dimension of the viewport (width or height)</li>
+            <li>vmax - relative to the larger dimension of the viewport (width or height)</li>     
+        </ul>
+
+        <p>Exaples:</p>
+        <div class="example example-absolute">
+            This div uses absolute units (px).
+        </div>
+        <div class="example example-relative">
+            <p>This div uses relative units (em).</p>
+            <p>div font-size = 10px</p>
+            <p>p font-size = 2em. That means 2 * font-size of a div</p>
+        </div>
+    </body>
+</html>
