@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+.heart_1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+    margin: 200px;
+}
+
+.heart_1::before, .heart_1::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}   
+.heart_1::before{
+    background-color: #FF0000;
+    top: -100px;
+    left: 0;
+}
+.heart_1::after{
+    background-color: #FF0000; 
+    top: 0;
+    left: -100px;
+}
+
+
+
+.heart_2{
+    width: 160px;
+    height: 160px;
+    background-color: blue;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+    
+}
+
+.heart_2::before, .heart_2::after{
+    content: "";
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+}   
+.heart_2::before{
+    background-color: blue;
+    top: -80px;
+    left: 0;
+}
+.heart_2::after{
+    background-color: blue; 
+    top: 0;
+    left: -80px;
+}
+
+
+
+
+
+.heart_3{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+    
+}
+
+.heart_3::before, .heart_3::after{
+    content: "";
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+}   
+.heart_3::before{
+    background-color: rgb(0, 255, 0);
+    top: -60px;
+    left: 0;
+}
+.heart_3::after{
+    background-color: rgb(0, 255, 0); 
+    top: 0;
+    left: -60px;
+}
+
+
+.heart_4{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+    
+}
+.heart_4::before, .heart_4::after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+}   
+.heart_4::before{
+    background-color: rgb(255, 255, 255);
+    top: -40px;
+    left: 0;
+}
+.heart_4::after{
+    background-color: rgb(255, 255, 255); 
+    top: 0;
+    left: -40px;
+}
+
+p{
+    z-index: 10;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 0px;
+    left: -5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes heartNormal {
+    0% {
+        transform: scale(1) rotate(45deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(45deg);
+    }
+    100% {
+        transform: scale(1) rotate(45deg);
+    }
+    
+}
